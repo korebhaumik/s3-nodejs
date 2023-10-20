@@ -13,9 +13,22 @@
 
 Simple S3 setup with mongo integration and express server.
 
+Hosted Server link is [ec2-13-234-232-157.ap-south-1.compute.amazonaws.com:1337](ec2-13-234-232-157.ap-south-1.compute.amazonaws.com:1337)
 
 ## Walkthrough
 
+S3 can be accessed on '/addItem' route.
+The appropriate format should be like this:
+<img width="460" alt="image" src="https://github.com/korebhaumik/s3-nodejs/assets/106856064/5a2c4594-92d5-4986-8494-8ebf99fc18c1">
+
+- username and metadata fields are optional and can be omitted.
+- file is a required field.
+
+<img width="453" alt="image" src="https://github.com/korebhaumik/s3-nodejs/assets/106856064/2bd29bdc-bfb2-490e-bd57-784faaf95912">
+
+- response object should be something like this.
+
+> Note: File types supported are '.png', '.jpeg', '.jpg', '.txt', '.pdf'. File Size Limit is 10MB.
 
 
 ## Running locally
