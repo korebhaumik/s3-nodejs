@@ -28,6 +28,11 @@ The appropriate format should be like this:
 
 - response object should be something like this.
 
+<img width="738" alt="image" src="https://github.com/korebhaumik/s3-nodejs/assets/106856064/fa623aee-a212-4c5a-b584-c0b2ab5e9f90">
+
+-file ka url is also saved in the db.
+
+
 > Note: File types supported are '.png', '.jpeg', '.jpg', '.txt', '.pdf'. File Size Limit is 10MB.
 
 
