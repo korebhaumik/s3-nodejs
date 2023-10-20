@@ -19,16 +19,18 @@ Hosted Server link is [ec2-13-234-232-157.ap-south-1.compute.amazonaws.com:1337]
 
 S3 can be accessed on '/addItem' route.
 The appropriate format should be like this:
-<img width="460" alt="image" src="https://github.com/korebhaumik/s3-nodejs/assets/106856064/5a2c4594-92d5-4986-8494-8ebf99fc18c1">
+<img width="446" alt="image" src="https://github.com/korebhaumik/s3-nodejs/assets/106856064/83254ee6-e37d-4539-b053-081544803ed5">
+
 
 - username and metadata fields are optional and can be omitted.
 - file is a required field.
 
-<img width="453" alt="image" src="https://github.com/korebhaumik/s3-nodejs/assets/106856064/2bd29bdc-bfb2-490e-bd57-784faaf95912">
+<img width="447" alt="image" src="https://github.com/korebhaumik/s3-nodejs/assets/106856064/df783979-9143-42cd-b8c9-048ed3f4491a">
+
 
 - response object should be something like this.
 
-<img width="738" alt="image" src="https://github.com/korebhaumik/s3-nodejs/assets/106856064/fa623aee-a212-4c5a-b584-c0b2ab5e9f90">
+<img width="747" alt="image" src="https://github.com/korebhaumik/s3-nodejs/assets/106856064/12a1965e-cc2f-403c-8e1a-f5ae3819c149">
 
 -file ka url is also saved in the db.
 
