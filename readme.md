@@ -13,7 +13,7 @@
 
 Simple S3 setup with mongo integration and express server.
 
-Hosted Server link is [ec2-13-234-232-157.ap-south-1.compute.amazonaws.com:1337](ec2-13-234-232-157.ap-south-1.compute.amazonaws.com:1337)
+Hosted Server link is [ec2-13-234-232-157.ap-south-1.compute.amazonaws.com:1337](http://ec2-13-234-232-157.ap-south-1.compute.amazonaws.com:1337)
 
 ## Walkthrough
 
