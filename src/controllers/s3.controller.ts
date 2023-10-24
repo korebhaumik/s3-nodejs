@@ -111,17 +111,18 @@ export const deletes3handler = async (req: Request, res: Response) => {
 export const gets3handler = async (req: Request, res: Response) => {
   try {
     const { filename } = req.query;
-    console.log(filename)
+    console.log(filename);
 
     const command = new GetObjectCommand({
       Bucket: process.env.BUCKET_NAME as string,
       Key: filename as string | undefined,
     });
 
-    const result = await client.send(command);
-    console.log(result);
+    const response = await client.send(command);
+    const result = await response.Body?.transformToString("utf8");
+    // console.log(result);
 
-    res.status(200).json(result);
+    res.status(200).json({ rawData: result });
   } catch (err: any) {
     // Catch any errors thrown during the file upload process and return a 400 response with an error message
     console.log(err);
