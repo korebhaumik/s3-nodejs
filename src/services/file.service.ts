@@ -15,3 +15,12 @@ export const saveToDB = async (
     throw err;
   }
 };
+
+export const deleteFromDB = async (filename: string) => {
+  try {
+    const res = await File.deleteOne({ filename });
+    return res;
+  } catch (err) {
+    throw err;
+  }
+};
