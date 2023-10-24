@@ -17,22 +17,7 @@ Hosted Server link is [ec2-13-234-232-157.ap-south-1.compute.amazonaws.com:1337]
 
 ## Walkthrough
 
-S3 can be accessed on '/addItem' route.
-The appropriate format should be like this:
-<img width="446" alt="image" src="https://github.com/korebhaumik/s3-nodejs/assets/106856064/83254ee6-e37d-4539-b053-081544803ed5">
-
-
-- username and metadata fields are optional and can be omitted.
-- file is a required field.
-
-<img width="447" alt="image" src="https://github.com/korebhaumik/s3-nodejs/assets/106856064/df783979-9143-42cd-b8c9-048ed3f4491a">
-
-
-- response object should be something like this.
-
-<img width="747" alt="image" src="https://github.com/korebhaumik/s3-nodejs/assets/106856064/12a1965e-cc2f-403c-8e1a-f5ae3819c149">
-
--file ka url is also saved in the db.
+[Documentation Link](https://documenter.getpostman.com/view/24492997/2s9YRCVqRz#fdca038d-d8d2-41bc-a16d-dd19e0ad36be)
 
 
 > Note: File types supported are '.png', '.jpeg', '.jpg', '.txt', '.pdf'. File Size Limit is 10MB.
